@@ -36,7 +36,6 @@ como blocos sólidos no lugar das fotos).
 ```
 index.html                 # entry do Vite (preconnect + Google Fonts + #root)
 public/images/             # fotos (lais-profile.jpg, lais-sofa.jpg)
-legacy/index.html          # cópia do site original (referência)
 src/
   main.jsx                 # bootstrap React + import dos estilos globais
   App.jsx                  # composição das seções
