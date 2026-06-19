@@ -1,0 +1,80 @@
+.contact {
+  background: var(--navy-900);
+  padding: 130px 0 90px;
+  position: relative;
+  overflow: hidden;
+}
+.contact::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent 0,
+    transparent 39px,
+    rgba(184, 145, 91, 0.04) 40px
+  );
+  pointer-events: none;
+}
+.contact .contact-particles {
+  z-index: 0;
+}
+.contact .wrap {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.contact .section-title {
+  color: var(--white);
+  margin: 0 auto 20px;
+}
+.contact-eyebrow {
+  justify-content: center;
+}
+.contact-sub {
+  color: rgba(247, 244, 237, 0.65);
+  font-size: 17px;
+  max-width: 480px;
+  margin: 0 auto 48px;
+  line-height: 1.7;
+}
+.contact-ctas {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  border-top: 1px solid rgba(184, 145, 91, 0.2);
+}
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: rgba(247, 244, 237, 0.7);
+  font-size: 14px;
+  transition: color 0.2s;
+}
+.contact-link:hover {
+  color: var(--gold-300);
+}
+.contact-link .label {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-500);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .contact-links {
+    gap: 28px;
+  }
+}
