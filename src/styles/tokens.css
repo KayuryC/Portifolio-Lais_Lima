@@ -1,0 +1,19 @@
+/* ------------------------------------------------------------------
+   Design tokens — paleta e tipografia (preservados do site original)
+   ------------------------------------------------------------------ */
+:root {
+  --navy-900: #0a1b30;
+  --navy-800: #0f2240;
+  --navy-700: #16335e;
+  --gold-500: #b8915b;
+  --gold-300: #d9bd8c;
+  --gold-100: #f0e3ce;
+  --cream-50: #f7f4ed;
+  --cream-100: #efeae0;
+  --ink-900: #1c2230;
+  --gray-500: #6b7280;
+  --white: #ffffff;
+
+  --serif: "Fraunces", serif;
+  --sans: "Inter", sans-serif;
+}
