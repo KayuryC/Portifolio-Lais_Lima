@@ -62,10 +62,6 @@ export default function Testimonials() {
           <h2 className="section-title">
             Resultados de quem já <em>caminhou</em> comigo.
           </h2>
-          <p className="testi-note">
-            * Depoimentos de exemplo — substitua pelos relatos reais das suas
-            clientes assim que estiverem disponíveis.
-          </p>
         </AnimatedSection>
 
         {reduce ? (
